@@ -3,46 +3,36 @@ import { motion } from 'framer-motion';
 import { Code, Brain, Database, Server } from 'lucide-react';
 
 const skills = [
-  {
-    icon: <Code className="w-6 h-6" />,
-    title: 'Frontend Development',
-    items: ['React', 'TypeScript', 'Tailwind CSS', 'Next.js']
-  },
-  {
-    icon: <Server className="w-6 h-6" />,
-    title: 'Backend Development',
-    items: ['Node.js', 'Python', 'Express', 'FastAPI']
-  },
-  {
-    icon: <Database className="w-6 h-6" />,
-    title: 'Database',
-    items: ['PostgreSQL', 'MongoDB', 'Redis', 'Supabase']
-  },
-  {
-    icon: <Brain className="w-6 h-6" />,
-    title: 'AI & ML',
-    items: ['TensorFlow', 'PyTorch', 'Scikit-learn', 'NLP']
-  }
-];
+    {
+      icon: <Code className="w-6 h-6" />,
+      title: 'Full Stack Development',
+      items: ['React', 'Node.js', 'Express', 'TypeScript']
+    },
+    {
+      icon: <Server className="w-6 h-6" />,
+      title: 'App Development',
+      items: ['React Native', 'Android Studio',]
+    },
+    {
+      icon: <Database className="w-6 h-6" />,
+      title: 'UI/UX Designing',
+      items: ['Figma', 'Adobe XD', 'Tailwind CSS']
+    }
+  ];
+  
 
-const experiences = [
+const education = [
   {
-    year: '2023 - Present',
-    title: 'Senior Full Stack Developer',
-    company: 'Tech Innovators Inc.',
-    description: 'Leading development of enterprise-scale applications using React and Node.js.'
+    year: '2022 - 2026',
+    degree: 'Bachelor of Engineering in Computer Science',
+    institution: 'SIMATS University',
+    description: 'Specialized in software development, data structures, and artificial intelligence.'
   },
   {
-    year: '2021 - 2023',
-    title: 'AI Engineer',
-    company: 'AI Solutions Ltd.',
-    description: 'Developed and deployed machine learning models for real-world applications.'
-  },
-  {
-    year: '2019 - 2021',
-    title: 'Full Stack Developer',
-    company: 'Digital Creators Co.',
-    description: 'Built and maintained various web applications using modern technologies.'
+    year: '2020 - 2022',
+    degree: 'Intermediate',
+    institution: 'Chaitanya Junior College',
+    description: 'Intermediate in MPC (Mathematics, Physics, Chemistry) is a two-year pre-university course that builds a strong foundation in science and mathematics for engineering and other technical fields.'
   }
 ];
 
@@ -92,23 +82,23 @@ export const About: React.FC = () => {
       </div>
 
       <div>
-        <h2 className="text-2xl font-semibold mb-8 text-center">Experience</h2>
+        <h2 className="text-2xl font-semibold mb-8 text-center">Education</h2>
         <div className="space-y-8">
-          {experiences.map((exp, index) => (
+          {education.map((edu, index) => (
             <motion.div
-              key={exp.year}
+              key={edu.year}
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: index * 0.2 }}
               className="flex gap-6 items-start"
             >
               <div className="w-32 flex-shrink-0">
-                <div className="text-sm font-semibold text-blue-600 dark:text-blue-400">{exp.year}</div>
+                <div className="text-sm font-semibold text-blue-600 dark:text-blue-400">{edu.year}</div>
               </div>
               <div className="flex-1 p-6 rounded-lg bg-white dark:bg-gray-800 shadow-lg">
-                <h3 className="font-semibold mb-2">{exp.title}</h3>
-                <div className="text-sm text-gray-500 dark:text-gray-400 mb-2">{exp.company}</div>
-                <p className="text-gray-600 dark:text-gray-300">{exp.description}</p>
+                <h3 className="font-semibold mb-2">{edu.degree}</h3>
+                <div className="text-sm text-gray-500 dark:text-gray-400 mb-2">{edu.institution}</div>
+                <p className="text-gray-600 dark:text-gray-300">{edu.description}</p>
               </div>
             </motion.div>
           ))}
