@@ -5,47 +5,47 @@ import { ExternalLink, Github } from 'lucide-react';
 const projects = [
   {
     id: 1,
-    title: 'AI-Powered Analytics Dashboard',
-    description: 'A real-time analytics dashboard with AI-driven insights and predictions.',
+    title: 'Fertilizer Recommendation System Using Deep Learning',
+    description: 'A deep learning-based system for accurate fertilizer recommendations to optimize crop yield and soil health.',
     category: 'AI',
-    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-    technologies: ['React', 'TensorFlow.js', 'Node.js', 'D3.js'],
+    image: 'https://eu-images.contentstack.com/v3/assets/bltdd43779342bd9107/blt774aabba0a27a730/6634049ea251ee3ca2384655/0506T-3672A-1800x1012.jpg',
+    technologies: ['Python', 'TensorFlow', 'Colab'],
     github: 'https://github.com',
     demo: 'https://demo.com'
   },
   {
     id: 2,
-    title: 'E-Commerce Platform',
-    description: 'A modern e-commerce platform with real-time inventory management.',
+    title: 'CAKEIRIS - Online Cake Ordering Site',
+    description: 'Online cake ordering platform that allows users to browse, customize, and order cakes for delivery.',
     category: 'Web Development',
-    image: 'https://images.unsplash.com/photo-1557821552-17105176677c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-    technologies: ['Next.js', 'Stripe', 'PostgreSQL', 'Redis'],
+    image: 'https://cdn.pixabay.com/photo/2024/01/26/21/41/ai-generated-8534773_1280.jpg',
+    technologies: ['HTML', 'CSS', 'JavaScript', 'Firebase'],
     github: 'https://github.com',
     demo: 'https://demo.com'
   },
   {
     id: 3,
-    title: 'Smart Home IoT Dashboard',
-    description: 'IoT dashboard for monitoring and controlling smart home devices.',
+    title: 'Solar-Powered Auto Door with Light Sensing',
+    description: 'A solar-powered automatic door system that opens and closes based on ambient light intensity using light sensors.',
     category: 'IoT',
-    image: 'https://images.unsplash.com/photo-1558002038-876f1d0aa8bd?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-    technologies: ['React', 'MQTT', 'Node.js', 'MongoDB'],
+    image: 'https://images.squarespace-cdn.com/content/v1/56f2e1da45bf21a9d51fe345/1461353400256-WM3GH2UUB7VWMSWIY1EW/Lima01.jpg',
+    technologies: ['Arduino', 'Raspberry Pi', 'C++',],
     github: 'https://github.com',
     demo: 'https://demo.com'
   },
   {
     id: 4,
-    title: 'Natural Language Processing API',
-    description: 'API for text analysis, sentiment detection, and language processing.',
-    category: 'AI',
-    image: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-    technologies: ['Python', 'FastAPI', 'spaCy', 'Docker'],
+    title: 'BumpStrong - Stay Active and Prepare for Motherhood',
+    description: 'BumpStrong is a mobile app designed to help expecting mothers stay active, healthy, and prepared for motherhood with guided exercises and wellness tips.',
+    category: 'Application',
+    image: 'https://static1.squarespace.com/static/5f100e61fe3f1e54eac2844a/t/66ad78a7f3b6d50bb662b7ac/1722644650208/logo+stacked+%282%29.png',
+    technologies: ['Android Studio', 'Java', 'XML', 'MySQL'],
     github: 'https://github.com',
     demo: 'https://demo.com'
   }
 ];
 
-const categories = ['All', 'AI', 'Web Development', 'IoT'];
+const categories = ['All', 'AI', 'Web Development', 'IoT','Application'];
 
 export const Projects: React.FC = () => {
   const [selectedCategory, setSelectedCategory] = useState('All');
