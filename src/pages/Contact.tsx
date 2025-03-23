@@ -58,7 +58,7 @@ export const Contact: React.FC = () => {
                 <Mail className="w-6 h-6 text-blue-600 dark:text-blue-400" />
                 <div className="ml-4">
                   <p className="text-sm text-gray-500 dark:text-gray-400">Email</p>
-                  <p className="text-gray-600 dark:text-gray-300">contact@example.com</p>
+                  <p className="text-gray-600 dark:text-gray-300">kamparajunarendra08@gamil.com</p>
                 </div>
               </div>
               
@@ -66,7 +66,7 @@ export const Contact: React.FC = () => {
                 <Phone className="w-6 h-6 text-blue-600 dark:text-blue-400" />
                 <div className="ml-4">
                   <p className="text-sm text-gray-500 dark:text-gray-400">Phone</p>
-                  <p className="text-gray-600 dark:text-gray-300">+1 (555) 123-4567</p>
+                  <p className="text-gray-600 dark:text-gray-300">+91 9876543210</p>
                 </div>
               </div>
               
@@ -74,7 +74,7 @@ export const Contact: React.FC = () => {
                 <MapPin className="w-6 h-6 text-blue-600 dark:text-blue-400" />
                 <div className="ml-4">
                   <p className="text-sm text-gray-500 dark:text-gray-400">Location</p>
-                  <p className="text-gray-600 dark:text-gray-300">San Francisco, CA</p>
+                  <p className="text-gray-600 dark:text-gray-300">Chennai</p>
                 </div>
               </div>
             </div>
@@ -82,10 +82,10 @@ export const Contact: React.FC = () => {
             <div className="mt-8">
               <h3 className="text-lg font-semibold mb-4">Follow Me</h3>
               <div className="flex space-x-4">
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400">
+                <a href="https://github.com/narendravarma2004" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400">
                   <Github className="w-6 h-6" />
                 </a>
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400">
+                <a href="https://www.linkedin.com/in/kamparajunarendravarma/" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400">
                   <Linkedin className="w-6 h-6" />
                 </a>
                 <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400">
