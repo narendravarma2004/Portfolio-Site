@@ -65,7 +65,7 @@ export const Home: React.FC = () => {
 
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/167ZXKehQJjQ1Sg-k6ZirWn8mlz4fQFvk/view?usp=sharing" // Link to the resume file
+            href="https://drive.google.com/file/d/10P6Zv9_oy1ybcsH9YhGeFJIgIYVjvBTR/view?usp=sharing" // Link to the resume file
             rel="noopener noreferrer"
             target="_blank"
             className="px-8 py-3 bg-green-600 text-white rounded-full flex items-center gap-2 hover:bg-green-700 transition-colors"
