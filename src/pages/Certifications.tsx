@@ -5,35 +5,43 @@ import { Award, Calendar, ExternalLink } from 'lucide-react';
 const certifications = [
   {
     id: 1,
-    title: 'AWS Certified Solutions Architect',
-    issuer: 'Amazon Web Services',
-    date: 'February 2024',
-    image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-    link: 'https://aws.amazon.com/certification/'
+    title: 'Java',
+    issuer: 'Udemy',
+    date: 'August 2024',
+    image: 'https://dac.digital/wp-content/uploads/2023/04/backend-java-1920x1200-optimized.png',
+    link: 'https://drive.google.com/file/d/1FKzyP_vfMGAfKBYmeYkF2nL3UtX9zbqj/view?usp=sharing'
   },
   {
     id: 2,
-    title: 'TensorFlow Developer Certificate',
-    issuer: 'Google',
-    date: 'December 2023',
-    image: 'https://images.unsplash.com/photo-1488229297570-58520851e868?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-    link: 'https://www.tensorflow.org/certificate'
+    title: 'C Programming',
+    issuer: 'Great Learning',
+    date: 'August 2023',
+    image: 'https://i0.wp.com/moodle.sit.ac.in/blog/wp-content/uploads/2023/06/c.png?w=709',
+    link: 'https://drive.google.com/file/d/1MB37gJ1pN_8gd-Q_fMn8pt1nz3N3x6p1/view?usp=sharing'
   },
   {
     id: 3,
-    title: 'Full Stack Web Development',
-    issuer: 'freeCodeCamp',
-    date: 'October 2023',
-    image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-    link: 'https://www.freecodecamp.org/'
+    title: 'AI Foundations Associate',
+    issuer: 'Oracle',
+    date: 'August 2024',
+    image: 'https://dxc.scene7.com/is/image/dxc/OracleRedwood2?',
+    link: 'https://drive.google.com/file/d/19AhJja08TU3EtwgPyvhZPvdhcdJu1FRY/view?usp=sharing'
   },
   {
     id: 4,
-    title: 'React Native Specialist',
-    issuer: 'Meta',
+    title: 'Career Edge- Professional',
+    issuer: 'TCS-ION',
     date: 'August 2023',
-    image: 'https://images.unsplash.com/photo-1526498460520-4c246339dccb?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-    link: 'https://developers.facebook.com/certification/'
+    image: 'https://evessio.s3.amazonaws.com/customer/f6ac7efa-3821-45db-b7e9-604a1025db1f/event/d3d85cc9-ac6d-456d-8352-454ef5ba5451/media/309157e4-profile_TCS-logo-1024x768-1-optimized.jpg_Large.webp',
+    link: 'https://drive.google.com/file/d/16muLIxEccpVtE2YzQ1x7OW8IPvuM3Hyd/view?usp=sharing'
+  },
+  {
+    id: 5,
+    title: 'APEX Cloud Developer',
+    issuer: 'Oracle',
+    date: 'August 2024',
+    image: 'https://dxc.scene7.com/is/image/dxc/OracleRedwood2?',
+    link: 'https://drive.google.com/file/d/19AhJja08TU3EtwgPyvhZPvdhcdJu1FRY/view?usp=sharing'
   }
 ];
 
